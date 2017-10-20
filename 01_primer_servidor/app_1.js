@@ -1,4 +1,4 @@
-// Imporción del módulo express
+// Importación del módulo de express
 const express = require('express');
 
 // Inicializando servidor
