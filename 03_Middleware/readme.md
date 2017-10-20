@@ -9,7 +9,11 @@ Función que permite declarar un *middleware*.  Dependiendo el tipo de Middlewar
 * **Middleware de apliación**
 Son funciones que reciben una función *callback* la cual, a su vez recibe tres parámetros: 1) Objeto *req* , 2) Objeto *res*, 3) Palabra reservada *next*.
 
-Ejemplo:  app.use( (req, res, next) => {  // code  next();  });
+Ejemplo:  
+'app.use( (req, res, next) => {  
+// code  
+next();  
+});'
 
 *next()* permite salir del middleware actual y pasar a la siguiente.
 
